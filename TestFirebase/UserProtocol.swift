@@ -8,6 +8,8 @@
 
 import Foundation
 
+// read this for more detail on protocol 
+//https://www.swiftbysundell.com/posts/specializing-protocols-in-swift
 protocol UserProtocol {
     var name : String {get set}
     var profile : String {get set}
